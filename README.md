@@ -1,9 +1,3 @@
-<p>
-    <a href="https://twitter.com/intent/follow?screen_name=AntminerMonitor">
-        <img src="https://img.shields.io/twitter/follow/AntminerMonitor.svg?style=social" alt="follow on Twitter">
-    </a>
-</p>
-
 # Antminer Monitor
 
 Lite Python based Antminer Monitor !!!
@@ -30,20 +24,19 @@ If you don't select this option you will probably face some errors while install
 ### Fresh Installation
 
 > All commands must be typed without the leading dollar sign `$`
-  1. Download the latest official release of #AntminerMonitor from https://github.com/anselal/antminer-monitor/releases
-or the latest unofficial release from https://github.com/anselal/antminer-monitor/archive/master.zip
+  1. Download the latest official release of #AntminerMonitor from https://github.com/meyrelles/Antminer-dashboard/releases
   2. Unzip the downloaded file in a folder of your preference
   3. Open a windows command prompt or a terminal and navigate to the folder where you unzipped the file using the `cd` command
 e.g. If you unzipped the file in the folder `C:\Users\foo\Downloads\antminer-monitor-master` type the following command and press <Enter>
 ```sh
-$ cd C:\Users\foo\Downloads\antminer-monitor-master
+$ cd C:\Users\foo\Downloads\Antminer-dashboard
 ```
-  > You command prompt or terminal should now look like  `C:\Users\foo\Downloads\antminer-monitor-master>`
+  > You command prompt or terminal should now look like  `C:\Users\foo\Downloads\Antminer-dashboard>`
   4. **This step apply only to *Mac* users**. If you are a Windows or Linux user continue to step 5.
   > Mac users should run all the commands with sudo eg. `sudo python get_pip.py`
   
 Install `pip` using one of the following methods:
- - Download `get-pip.py` from https://bootstrap.pypa.io/get-pip.py and save it inside `antminer-monitor-master`. Run the following command to install it:
+ - Download `get-pip.py` from https://bootstrap.pypa.io/get-pip.py and save it inside `Antminer-dashboard`. Run the following command to install it:
  > It will ask for the administrator password. Type it and press <Enter>. While typing your password you won't see the characters on your screen. This is only for security measures.
 ```sh
 $ sudo python get_pip.py
@@ -73,7 +66,7 @@ Fire up a browser and point it to `http://localhost:5000` if you are running the
  To upgrade AntminerMonitor to a newer version follow the steps below:
  
  - Do a backup of your database (file: `app/db/app.db`) in case something goes wrong
- - Download the latest version of #AntminerMonitor from https://github.com/anselal/antminer-monitor/archive/master.zip
+ - Download the latest version of #AntminerMonitor from https://github.com/meyrelles/Antminer-dashboard/archive/Antminer-dashboard.zip
  - Unzip and replace all the files in your current installation
  - Install requirements in case we added something new:
  ```sh
@@ -86,15 +79,7 @@ $ python update_db.py
 
 ### Donations
 
-  - BTC: `1HYCBovF6mqqKMyG4m2DQxXpdKmogK4Wuw`
-  - LTC: `LLrjq6nRokS74yPMspitHkXv4nLtEyebNW`
-  - DASH: `XuEnZtsCmWcDwKVe82wQddsfwUifXyeRoQ`
-  - ETH: `0x5bD8813Da5148fbc841bB18b9411fF72EdC8e10a`
-
-### Referral
-
-  - Get a Ledger Nano S and protect your cryptocurrencies
-<a href="https://www.ledgerwallet.com/r/3bf5?path=/products/ledger-nano-s&tracker=AntminerMonitor"><img width=728 height=90 alt="Ledger Nano S - The secure hardware wallet" src="https://www.ledgerwallet.com/images/promo/nano-s/ledger_nano-s_7-2-8x9-0.jpg"></a>
-
-  - Listen to your favorite radio stations and earn BRO cryptocurrency !!!
-<a href="http://bitrad.io/?ref=59452"><img src="http://bitrad.io/images/BRO728x90.gif"></a>
+  - BTC: `15Qsg38n1BaXvFfEA42yK3DVfYYjSFM4nX`
+  - LTC: `LRMPWkyNFxD1DUKioLz7wLHu5heVbXDbuV`
+  - DASH: `XuWW8y1BL7ZHGCBEw3Vwfa1xAgXTQZoBKu`
+  - ETH: `0x3ef8dd78b53ef876c482aa10d139941a76d073b6`
